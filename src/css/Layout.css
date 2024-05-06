@@ -1,0 +1,128 @@
+.ant-layout-sider-children {
+  min-height: 100vh;
+}
+
+main {
+  height: 85px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: transparent !important;
+}
+main::-webkit-scrollbar {
+  width: 0px;
+}
+
+main::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+main::-webkit-scrollbar-track {
+  background: var(--gray-color);
+  border-radius: 6px;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 6px;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.sm-logo {
+  display: none;
+}
+.sm-logo,
+.lg-logo {
+  transition: var(--main-transition);
+}
+.ant-layout-sider-collapsed .sm-logo {
+  display: block;
+}
+.ant-layout-sider-collapsed .lg-logo {
+  display: none;
+}
+.logo {
+  background-color: var(--gcolor);
+  margin: 0;
+  height: 64px;
+  color: var(--dark-blue);
+}
+.logo h2 {
+  color: inherit;
+}
+
+.ant-layout-header h5 {
+  line-height: 20px;
+  font-size: 14px;
+}
+.ant-layout-header p {
+  line-height: 20px;
+  font-size: 13px;
+}
+.ant-layout-header div .badge {
+  top: -10px;
+  right: -7px;
+  width: 15px;
+  height: 15px;
+  background-color: var(--gcolor) !important;
+}
+
+.green,
+.red {
+  font-size: 14px;
+  font-family: Roboto !important;
+}
+
+.form-control {
+  box-shadow: none;
+  border-color: var(--color-c3d4da);
+}
+.title {
+  font: 28px;
+  font-family: Roboto !important;
+  color: var(--head-color);
+}
+
+.sub-title {
+  font: 24px;
+  font-family: Roboto !important;
+  color: var(--head-color);
+}
+.desc {
+  font: 14px;
+  font-family: Roboto !important;
+  color: var(--gray-color);
+}
+.ql-snow {
+  border: none !important;
+  outline: none !important;
+}
+.ant-layout-sider-children ul {
+  background-color: transparent !important;
+}
+.ant-layout-sider-children {
+  background-color: #0067ff38 !important;
+}
+:where(.css-dev-only-do-not-override-gzal6t).ant-menu-dark
+  .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-gzal6t).ant-menu-dark
+  > .ant-menu
+  .ant-menu-item-selected {
+  background-color: var(--bs-gray-600);
+}
+:where(.css-dev-only-do-not-override-gzal6t).ant-menu-dark
+  .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-gzal6t).ant-menu-dark
+  > .ant-menu
+  .ant-menu-item-selected {
+  color: black !important;
+}
+:where(.css-dev-only-do-not-override-gzal6t).ant-menu-inline.ant-menu-root
+  .ant-menu-item,
+:where(.css-dev-only-do-not-override-gzal6t).ant-menu-inline.ant-menu-root
+  .ant-menu-submenu-title {
+  color: rgb(242, 241, 241);
+}

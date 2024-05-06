@@ -1,0 +1,107 @@
+.addBlog {
+  color: var(--head-color);
+}
+.addBlog form .user-box input {
+  border: 2px solid transparent;
+  width: 100%;
+  padding-left: 0.8em;
+  outline: none;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: var(--head-color);
+  transition: all var(--main-transition);
+}
+
+.addBlog form .user-box input:hover,
+.addBlog form .user-box input:focus,
+.css-13cymwt-control:focus {
+  border: 2px solid var(--bcolor);
+  box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+  background-color: white;
+}
+
+.seletOfAddBlog {
+  background-color: #fff;
+  color: inherit;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+.seletOfAddBlog:focus {
+  border-color: var(--active-color);
+}
+
+.bOfBlog {
+  border-radius: 6px;
+  width: fit-content;
+  padding: 0.8em 1.8em;
+  border: 2px solid var(--black-red-color);
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: var(--black-red-color);
+}
+
+.bOfBlog::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: var(--black-red-color);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.bOfBlog:hover::before {
+  width: 105%;
+}
+
+.bOfBlog:hover {
+  color: var(--color-white);
+}
+
+.css-qbdosj-Input {
+  color: var(--head-color) !important;
+}
+
+.css-13cymwt-control {
+  background-color: #fff;
+}
+.css-13cymwt-control {
+  border-color: hsl(0, 0%, 70%);
+  border: none !important;
+  background-color: #fff;
+  height: 53px;
+  border-radius: 6px;
+  outline: none !important;
+}
+.h-40px {
+  height: 40px !important;
+}
+.ant-select-show-search:where(.css-dev-only-do-not-override-gzal6t).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  cursor: text;
+  outline: none;
+  height: 47px;
+  border: none;
+}
+.aInEnq {
+  text-decoration: underline;
+  color: var(--active-color);
+}
+.statusEnq {
+  border-color: var(--gray-color);
+  background-color: transparent;
+}
